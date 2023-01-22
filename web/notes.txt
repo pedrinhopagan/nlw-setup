@@ -1,0 +1,15 @@
+React:
+
+// Imperativa vs Declarativa
+
+  // JS => Imperativa
+  // React => Declarativa
+
+  // Estado => Variáveis monitoradas pelo React
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  function buttonClicked() {
+    setIsModalOpen(true)
+
+    alert('Clicou!')
+  }
